@@ -8,27 +8,19 @@ header {
   background-color: rgb(78, 152, 180);
   background-size: auto;
   margin: 1px;
-  padding: 80px 100px 10px;
-  font-size: 25px;
-}
-
-h1, h2 {
+  padding: 40px 100px 1px;
+  font-size: 20px;
   color: rgb(255, 255, 254);
-  font-family: arial, verdana, sans-serif;
-}
-
-h1, {
-  margin-top: 30px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
 }
 
 h2 {
   font-size: 100%;
   font-style: italic;
   font-weight: inherit;
+  color: rgb(255, 255, 254);
+  font-family: arial, verdana, sans-serif;
   margin-top: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   width: 300px;
 }
 
@@ -39,13 +31,33 @@ h3 {
 h4 {
   color: rgb(74, 152, 181);
   font-size: 1.5rem;
-  margin: 20px;
+  margin-bottom: 10px;
 }
 
 .menu {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding: 10px;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+.link {
+  color: black;
+}
+
+.link-2 {
+  color: white;
+}
+
+.change-text {
+  color: rgb(74, 152, 181);
+}
+
+.change-text-2 {
+  color: rgb(109, 184, 210);
+  font-size: 2rem;
 }
 
 nav {
@@ -59,14 +71,20 @@ a {
   text-decoration:none;
 }
 
+p {
+  padding-left: 10px;
+}
+
 aside {
   float: right;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 section {
-  margin-left: 100px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  padding: 100px;
+  border: 0px;
+  margin: 0px;
 }
 
 body {
@@ -84,11 +102,3 @@ img.middle {
   vertical-align: center;
   padding: none;
 }
-/*
-
-looks like a boxmodel is used for the heading background, there is padding on the left and right. Might be a position:center
-different font for both h1 and h2
-
-nav links are black font
-
-*/
