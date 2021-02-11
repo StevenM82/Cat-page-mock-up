@@ -1,49 +1,99 @@
 * {
   box-sizing: border-box;
-  margin: 3px;
-  padding: 0;
+  margin: 2px;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: arial, verdana, sans-serif;
+  color: rgb(58, 58, 58);
 }
 
 header {
   background-color: rgb(78, 152, 180);
-  background-size: auto;
-  padding: 40px 100px 1px;
-  font-size: 20px;
+  padding: 100px 162px 48px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 75px;
   color: rgb(255, 255, 254);
+  padding-left: 100px;
+  display: flex;
 }
 
 h2 {
-  font-size: 100%;
   font-style: italic;
-  font-weight: inherit;
+  font-weight: lighter;
+  font-size: 40px;
+  display: flex;
   color: rgb(255, 255, 254);
   font-family: arial, verdana, sans-serif;
-  margin-top: 0px;
-  margin-bottom: 50px;
-  width: 300px;
+  margin-bottom: 30px;
+  padding: 12px 100px;
+  width: 50%;
 }
 
 h3 {
-  margin:10px;
+  padding: 70px 0px 10px;
+  font-size: 1.6rem;
 }
 
 h4 {
   color: rgb(74, 152, 181);
-  font-size: 1.25rem;
-  margin-bottom: 50px;
-  margin-top: 0px;
+  font-size: 1.55rem;
+  display: flex;
+  padding: 45px 0px 30px;
+}
+
+a {
+  text-decoration:none;
+  padding: 10px;
+}
+
+.clear-float:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .menu {
+  background-color: rgb(235, 235, 235);
   list-style: none;
+  font-size: 1.35rem;
+  font-weight: bold;
   display: flex;
-  padding: 10px;
-  margin-left: 0;
+  padding: 0px 225px;
+  margin: 33px;
 }
 
-.link {
-  color: black;
-  margin: 10px;
+.menu-link {
+  color: rgb(58, 58, 58);
+  margin: 10px 10px 10px 0px;
+}
+
+.main-content {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 75px 50px 270px;
+  margin: 0px;
+  width: 65%;
+  float: left;
+  line-height: 1.8;
+  font-size: 1.15rem;
+}
+
+.side-bar {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding-right: 300px;
+  padding-bottom: 207.5px;
+  width: 35%;
+  float: left;
+  line-height: 1.5;
+}
+
+.side-bar-link {
+  color: rgb(78, 152, 180);
 }
 
 .link-2 {
@@ -51,53 +101,23 @@ h4 {
 }
 
 .change-text {
-  color: rgb(74, 152, 181);
+  color: rgb(78, 152, 181);
 }
 
 .change-text-2 {
   color: rgb(109, 184, 210);
+  font-size: 1.5rem;
+  padding: 50px 50px 0px 0px;
 }
 
-nav {
-  padding-left: 100px;
-  margin: 0;
-  padding: 100;
-  display: flex;
+.flex-logo {
+  justify-content: center;
 }
 
-a {
-  text-decoration:none;
-}
-
-.page-right-content {
-  float: right;
-  background-color: rgb(255, 255, 255);
-  vertical-align: center;
-  width: 300px;
-}
-
-section {
-  background-color: rgb(255, 255, 255);
-  padding: 50px 0px 50px 100px;
-  border: 0px;
-  margin: 0px;
-  width: 1000px;
-}
-
-body {
-  background-color: rgb(235, 235, 235);
-  font-family: arial, verdana, sans-serif;
-}
-
-footer {
+.lower-logo {
   background-color: rgb(58, 58, 58);
   padding: 80px;
   color: rgb(255, 255, 254);
   text-align: center;
-}
-
-.lower-logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
