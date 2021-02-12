@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: rgb(78, 152, 180);
-  padding: 100px 162px 48px;
+  padding: 100px 162px 47px;
   text-align: left;
 }
 
@@ -35,69 +35,50 @@ h2 {
 }
 
 h3 {
-  padding: 70px 0px 10px;
-  font-size: 1.6rem;
+  padding: 85px 0px 10px 1px;
+  font-size: 1.8rem;
+  margin-left: 0px;
 }
 
 h4 {
   color: rgb(74, 152, 181);
-  font-size: 1.55rem;
+  font-size: 1.72rem;
   display: flex;
-  padding: 45px 0px 30px;
+  padding: 50px 0px 25px;
+  line-height: 1.55;
 }
 
-a {
-  text-decoration:none;
-  padding: 10px;
-}
-
-.clear-float:after {
+.clear-float::after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
 .menu {
   background-color: rgb(235, 235, 235);
+  padding: 0px 790px 0px 220px;
+  margin: 33px 0px 33px 33px;
   list-style: none;
   font-size: 1.35rem;
   font-weight: bold;
+  justify-content: space-evenly;
   display: flex;
-  padding: 0px 225px;
-  margin: 33px;
 }
 
 .menu-link {
   color: rgb(58, 58, 58);
-  margin: 10px 10px 10px 0px;
+  margin: 10px;
+  text-decoration: none;
 }
 
 .main-content {
   background-color: rgb(255, 255, 255);
-  padding: 20px 75px 50px 270px;
+  padding: 20px 75px 50px 298px;
   margin: 0px;
   width: 65%;
   float: left;
-  line-height: 1.8;
-  font-size: 1.15rem;
-}
-
-.side-bar {
-  background-color: rgb(255, 255, 255);
-  margin: 0;
-  padding-right: 300px;
-  padding-bottom: 207.5px;
-  width: 35%;
-  float: left;
-  line-height: 1.5;
-}
-
-.side-bar-link {
-  color: rgb(78, 152, 180);
-}
-
-.link-2 {
-  color: white;
+  line-height: 1.65;
+  font-size: 1.3rem;
 }
 
 .change-text {
@@ -106,18 +87,59 @@ a {
 
 .change-text-2 {
   color: rgb(109, 184, 210);
-  font-size: 1.5rem;
-  padding: 50px 50px 0px 0px;
+  font-size: 1.95rem;
+  padding: 87px 20px 0px 0px;
+  line-height: 1.5;
 }
 
-.flex-logo {
-  justify-content: center;
+.right-column {
+  background-color: rgb(255, 255, 255);
+  padding-right: 285px;
+  margin: auto;
+  width: 35%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column > p, a {
+  font-size: 1.3rem;
+  line-height: 1.65;
+  margin-left: 0px;
+  text-align: left;
+}
+
+.right-column-link {
+  color: rgb(78, 152, 180);
+  text-decoration: none;
+  padding: 10px 0px 35px;
+}
+
+.h3 {
+  padding: 30px 0px 25px;
+}
+
+.figure {
+  margin-left: 0px;
+}
+
+footer {
+  background-color: rgb(58, 58, 58);
+  padding: 100px;
+  color: white;
+  text-align: center;
 }
 
 .lower-logo {
   background-color: rgb(58, 58, 58);
-  padding: 80px;
   color: rgb(255, 255, 254);
   text-align: center;
   display: block;
+  line-height: 1.5;
+}
+
+.logo-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
