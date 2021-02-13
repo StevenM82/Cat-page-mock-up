@@ -5,8 +5,8 @@
 
 body {
   background-color: rgb(235, 235, 235);
-  font-family: arial, verdana, sans-serif;
   color: rgb(58, 58, 58);
+  font-family: arial, verdana, sans-serif;
 }
 
 header {
@@ -15,27 +15,27 @@ header {
   text-align: left;
 }
 
+.header {
+  color: rgb(255, 255, 255);
+  padding-left: 125px;
+  display: flex;
+}
+
 h1 {
   font-size: 75px;
-  color: rgb(255, 255, 254);
-  padding-left: 100px;
-  display: flex;
 }
 
 h2 {
   font-style: italic;
   font-weight: lighter;
   font-size: 40px;
-  display: flex;
-  color: rgb(255, 255, 254);
-  font-family: arial, verdana, sans-serif;
   margin-bottom: 30px;
-  padding: 12px 100px;
+  /*padding: 12px 100px;*/
   width: 50%;
 }
 
 h3 {
-  padding: 85px 0px 10px 1px;
+  padding: 85px 0px 10px 0px;
   font-size: 1.8rem;
   margin-left: 0px;
 }
@@ -73,7 +73,7 @@ h4 {
 
 .main-content {
   background-color: rgb(255, 255, 255);
-  padding: 20px 75px 50px 298px;
+  padding: 20px 75px 64px 298px;
   margin: 0px;
   width: 65%;
   float: left;
@@ -88,7 +88,7 @@ h4 {
 .change-text-2 {
   color: rgb(109, 184, 210);
   font-size: 1.95rem;
-  padding: 87px 20px 0px 0px;
+  padding: 87px 10px 0px 0px;
   line-height: 1.5;
 }
 
@@ -102,7 +102,7 @@ h4 {
   flex-direction: column;
 }
 
-.right-column > p, a {
+.right-column > p, a, figcaption {
   font-size: 1.3rem;
   line-height: 1.65;
   margin-left: 0px;
@@ -119,27 +119,27 @@ h4 {
   padding: 30px 0px 25px;
 }
 
-.figure {
+.right-img {
   margin-left: 0px;
 }
 
 footer {
   background-color: rgb(58, 58, 58);
   padding: 100px;
-  color: white;
-  text-align: center;
 }
 
 .lower-logo {
-  background-color: rgb(58, 58, 58);
   color: rgb(255, 255, 254);
   text-align: center;
-  display: block;
   line-height: 1.5;
+  display: block;
 }
 
 .logo-link {
   color: white;
   font-weight: bold;
   text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
