@@ -51,24 +51,32 @@ h4 {
 
 .menu {
   background-color: rgb(235, 235, 235);
-  padding: 0px 700px 0px 260px;
+  padding: 0px 0px 0px 260px;
   margin: 26px 0px;
   list-style: none;
   font-weight: bold;
   display: flex;
   align-items: center;
+  justify-content: left;
 }
 
-.menu-link {
+.menu > li {
+  color: rgb(58, 58, 58);
+  margin: 5px;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.a {
   color: rgb(58, 58, 58);
   margin: 10px;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .main-content {
   background-color: rgb(255, 255, 255);
-  padding: 12px 75px 144px 270px;
+  padding: 12px 75px 75px 270px;
   margin: 0px;
   width: 65%;
   float: left;
@@ -95,8 +103,9 @@ h4 {
 
 .side-bar {
   background-color: rgb(255, 255, 255);
-  padding: 0px 285px 70px 0px;
+  padding: 0px 285px 0px 0px;
   width: 35%;
+  margin: 0px;
   display: flex;
   flex-direction: column;
 }
@@ -104,7 +113,6 @@ h4 {
 .side-bar > p, a, figcaption {
   font-size: 1.15rem;
   line-height: 1.65;
-  margin-left: 0px;
   text-align: left;
 }
 
@@ -125,6 +133,11 @@ h4 {
 footer {
   background-color: rgb(58, 58, 58);
   padding: 100px;
+}
+
+.card {
+  background-color: rgb(58, 58, 58);
+  width: 100%
 }
 
 .lower-logo {
