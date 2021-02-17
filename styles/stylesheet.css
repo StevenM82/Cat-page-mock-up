@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-  padding: 75px 0px 10px 0px;
+  padding: 75px 0px 10px;
   font-size: 1.55rem;
 }
 
@@ -63,7 +63,6 @@ h4 {
 .menu > li {
   color: rgb(58, 58, 58);
   margin: 5px;
-  text-decoration: none;
   font-size: 1.6rem;
 }
 
@@ -128,16 +127,14 @@ h4 {
 
 footer {
   background-color: rgb(58, 58, 58);
+  color: rgb(255, 255, 255);
   padding: 100px;
-  margin: 75px 0px 0px  ;
-}
-
-.lower-logo {
-  color: rgb(255, 255, 254);
+  margin: 75px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .lower-logo > p {
