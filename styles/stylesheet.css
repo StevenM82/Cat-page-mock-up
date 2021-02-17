@@ -4,13 +4,10 @@
   font-family: arial, verdana, sans-serif;
 }
 
-body {
-  background-color: rgb(235, 235, 235);
-}
-
 header {
   background-color: rgb(78, 152, 180);
   padding: 100px 138px 75px;
+  margin-bottom: 0px;
 }
 
 .header {
@@ -33,7 +30,10 @@ h2 {
 h3 {
   padding: 75px 0px 10px 0px;
   font-size: 1.55rem;
-  margin-left: 0px;
+}
+
+.h3 {
+  padding: 20px 0px 20px;
 }
 
 h4 {
@@ -51,8 +51,8 @@ h4 {
 
 .menu {
   background-color: rgb(235, 235, 235);
-  padding: 0px 0px 0px 260px;
-  margin: 26px 0px;
+  padding: 22px 0px 22px 255px;
+  margin: 0px;
   list-style: none;
   font-weight: bold;
   display: flex;
@@ -103,7 +103,7 @@ h4 {
 
 .side-bar {
   background-color: rgb(255, 255, 255);
-  padding: 0px 285px 0px 0px;
+  padding: 2px 285px 0px 0px;
   width: 35%;
   margin: 0px;
   display: flex;
@@ -112,18 +112,14 @@ h4 {
 
 .side-bar > p, a, figcaption {
   font-size: 1.15rem;
+  text-decoration: none;
   line-height: 1.65;
   text-align: left;
 }
 
 .side-bar-link {
   color: rgb(78, 152, 180);
-  text-decoration: none;
   padding: 10px 0px 35px;
-}
-
-.h3 {
-  padding: 20px 0px 20px;
 }
 
 .right-img {
@@ -133,21 +129,19 @@ h4 {
 footer {
   background-color: rgb(58, 58, 58);
   padding: 100px;
-}
-
-.card {
-  background-color: rgb(58, 58, 58);
-  width: 100%
+  margin: 75px 0px 0px  ;
 }
 
 .lower-logo {
   color: rgb(255, 255, 254);
-  text-align: center;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .lower-logo > p {
-  line-height: 1.75;
+  line-height: 1.5;
   font-size: 1.15rem;
 }
 
@@ -157,7 +151,7 @@ footer {
 
 .logo-link {
   color: white;
-  padding: 15px 3px;
+  padding: 15px 5px;
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
