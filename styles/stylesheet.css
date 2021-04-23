@@ -43,12 +43,6 @@ h4 {
   line-height: 1.55;
 }
 
-.clear-float::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .container-menu {
   align-content: center;
   height: 75px;
@@ -94,6 +88,28 @@ h4 {
   flex-direction: column;
 }
 
+.clear-float::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus { left: 0; }
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .change-text {
   color: rgb(78, 152, 181);
 }
@@ -131,9 +147,7 @@ h4 {
   padding: 10px 0px 35px;
 }
 
-.right-img {
-  margin-left: 0px;
-}
+.right-img { margin-left: 0px; }
 
 footer {
   background-color: rgb(58, 58, 58);
@@ -165,3 +179,9 @@ footer {
   display: flex;
   align-items: center;
 }
+
+/*Links are spaced out for clickability*/
+/*Colors have good contrast*/
+/*Images have good alt text*/
+/*Pages can be sized up to 200% and down to 75% without breaking*/
+/*Added skip navigation, not currently working in firefox though, chrome and safari work*/
