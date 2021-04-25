@@ -6,19 +6,14 @@
 
 header {
   background-color: rgb(78, 152, 180);
+  color: rgb(255, 255, 255);
   padding: 100px 138px 75px;
   margin-bottom: 0px;
 }
-
 .header {
-  color: rgb(255, 255, 255);
   padding-left: 125px;
 }
-
-h1 {
-  font-size: 75px;
-}
-
+h1 { font-size: 75px; }
 h2 {
   font-style: italic;
   font-weight: lighter;
@@ -26,16 +21,10 @@ h2 {
   padding: 12px 100px;
   width: 50%;
 }
-
 h3 {
   padding: 75px 0px 10px;
   font-size: 1.55rem;
 }
-
-.h3 {
-  padding: 20px 0px 20px;
-}
-
 h4 {
   color: rgb(74, 152, 181);
   font-size: 1.55rem;
@@ -43,21 +32,17 @@ h4 {
   line-height: 1.55;
 }
 
-.container-menu {
-  align-content: center;
-  height: 75px;
-}
 .menu {
-  background-color: rgb(235, 235, 235);
-  padding: 22px 0px 22px 255px;
-  margin: 0px;
-  list-style: none;
-  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: left;
+  background-color: rgb(235, 235, 235);
+  padding: 22px 0px 22px 255px;
+  margin: 0px;
+  height: 75px;
+  list-style: none;
+  font-weight: bold;
 }
-
 .menu > li {
   color: rgb(58, 58, 58);
   margin: 5px;
@@ -70,10 +55,9 @@ h4 {
   text-decoration: none;
   font-size: 1.3rem;
 }
-
 .a:hover {
   opacity: 1.5;
-  color: rgb(72, 142, 168);
+  color: rgb(57, 112, 132);
 }
 
 .main-content {
@@ -100,7 +84,6 @@ h4 {
   top: auto;
 }
 .hidden:focus { left: 0; }
-
 .sr-only {
   position: absolute;
   left: -10000px;
@@ -110,20 +93,15 @@ h4 {
   overflow: hidden;
 }
 
-.change-text {
-  color: rgb(78, 152, 181);
-}
-
+.change-text { color: rgb(235, 0, 0); }
 .change-text-2 {
-  color: rgb(109, 184, 210);
-  font-size: 1.75rem;
+  color: rgb(120, 81, 169);
+  font-size: 1.5rem;
   padding: 75px 10px 0px 0px;
   line-height: 1.5;
 }
 
-.cite {
-  padding: 0px;
-}
+.cite { padding: 0px; }
 
 .side-bar {
   background-color: rgb(255, 255, 255);
@@ -134,16 +112,14 @@ h4 {
   flex-direction: column;
   justify-content: flex-end;
 }
-
 .side-bar > p, a, figcaption {
   font-size: 1.15rem;
   text-decoration: none;
   line-height: 1.65;
   text-align: left;
 }
-
 .side-bar-link {
-  color: rgb(78, 152, 180);
+  color: rgb(57, 112, 132);
   padding: 10px 0px 35px;
 }
 
@@ -164,24 +140,30 @@ footer {
   line-height: 1.5;
   font-size: 1.15rem;
 }
-
-.lower-logo > figure {
-  padding-bottom: 40px;
-}
-
+.lower-logo > figure { padding-bottom: 40px; }
 .logo-link {
+  display: flex;
+  align-items: center;
   color: white;
   padding: 15px 5px;
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
   list-style: none;
-  display: flex;
-  align-items: center;
 }
 
+.logo-link:hover { color: rgb(57, 112, 132) }
+
 /*Links are spaced out for clickability*/
-/*Colors have good contrast*/
+/*Colors have good contrast including hover on links*/
 /*Images have good alt text*/
-/*Pages can be sized up to 200% and down to 75% without breaking*/
-/*Added skip navigation, not currently working in firefox though, chrome and safari work*/
+
+/*Pages can be sized up to 170% and down to 75% without breaking*/
+/*The header, nav bar and footer don't span the entire length at 200%*/
+
+
+/*Most things added were for visibility*/
+/*Added skip navigation*/
+/*Added underline on nav bar to indicate current page*/
+/*Changed hover color contrast*/
+/*Added sr-only to indicate which menu buttons work*/
