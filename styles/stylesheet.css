@@ -164,6 +164,7 @@ footer {
 /*Added skip navigation*/
 /*Added underline on nav bar to indicate current page*/
 /*Changed :hover and :focus color for better contrast*/
-/*Added sr-only to indicate which menu buttons work in both menu and footer*/
+/*Added .sr-only to indicate which menu buttons work in both menu and footer*/
+/*Added .sr-only to indicate current page*/
 /*Added :focus to links*/
 /*Changed wording for links on index.html page side bar*/
